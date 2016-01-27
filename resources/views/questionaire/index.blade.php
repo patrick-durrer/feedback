@@ -1,0 +1,1 @@
+<a href="{{ url('feedback/create') }}">Zur Umfrage</a>
