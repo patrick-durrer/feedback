@@ -31,8 +31,6 @@ class AnswerRequest extends Request
         //                                 |->Ordne die Daten anhand der ID und füge den Wert "type" hinzu.
         //                                                     |-> Gib das ganze als Array zurück
         
-        var_dump($questions);
-
         foreach($questions as $id => $type)
         {
             $typeText = ($type === 0 ? 'radio_question' : 'text_question');
