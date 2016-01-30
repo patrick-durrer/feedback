@@ -10,7 +10,7 @@ class Topic extends Model
     	'text',
     ];
 
-    public function topic()
+    public function questions()
     {
         return $this->hasMany('App\Question');
     }
